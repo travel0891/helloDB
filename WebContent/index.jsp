@@ -1,3 +1,4 @@
+<%@page import="com.mapping.Test1"%>
 <%@ page language="java"%>
 <!doctype html>
 <html>
@@ -5,6 +6,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<p>hello db.</p>
+	<%= Test1.getUserInfo() %>
 </body>
 </html>
